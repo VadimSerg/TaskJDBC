@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a80ff99b-e761-46d9-8cfb-f9cbec0d5e3f" name="Default Changelist" comment="task1_3" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/jm-program/CoreTaskTemplate" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1gMqy3TRQfnHa2hjn2viFAvbeCg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gitRep" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="?" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UserServiceTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jm.task.core.jdbc.Main" />
+      <module name="TaskJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jm.task.core.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.createUsersTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="createUsersTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.dropUsersTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="dropUsersTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="saveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UserServiceTest.saveUser" />
+        <item itemvalue="JUnit.UserServiceTest.createUsersTable" />
+        <item itemvalue="JUnit.UserServiceTest.dropUsersTable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Vadim\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a80ff99b-e761-46d9-8cfb-f9cbec0d5e3f" name="Default Changelist" comment="" />
+      <created>1597935059340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597935059340</updated>
+      <workItem from="1597935082973" duration="6388000" />
+      <workItem from="1598273519896" duration="41000" />
+      <workItem from="1598275778747" duration="57000" />
+      <workItem from="1598275846300" duration="9431000" />
+      <workItem from="1598451025268" duration="8503000" />
+      <workItem from="1598618170940" duration="1221000" />
+      <workItem from="1598785436953" duration="2668000" />
+      <workItem from="1598875348155" duration="1831000" />
+      <workItem from="1598887355467" duration="562000" />
+      <workItem from="1598887937276" duration="425000" />
+      <workItem from="1598888646409" duration="7275000" />
+      <workItem from="1599050305843" duration="2858000" />
+      <workItem from="1599147616384" duration="985000" />
+      <workItem from="1599363370191" duration="19482000" />
+      <workItem from="1599559119242" duration="33641000" />
+      <workItem from="1599739793008" duration="30870000" />
+      <workItem from="1600074330041" duration="8840000" />
+      <workItem from="1600164471759" duration="5808000" />
+      <workItem from="1600177339679" duration="14554000" />
+      <workItem from="1600340369512" duration="49000" />
+      <workItem from="1600340437777" duration="17664000" />
+      <workItem from="1600604481780" duration="22995000" />
+      <workItem from="1600776301769" duration="4090000" />
+      <workItem from="1600784168629" duration="5000" />
+      <workItem from="1600784192543" duration="332000" />
+      <workItem from="1600784540547" duration="629000" />
+      <workItem from="1600860491343" duration="2060000" />
+      <workItem from="1600863596119" duration="49000" />
+      <workItem from="1600863818769" duration="3768000" />
+      <workItem from="1600867618855" duration="1889000" />
+      <workItem from="1600869529981" duration="2621000" />
+      <workItem from="1600945435728" duration="2760000" />
+      <workItem from="1600948215372" duration="270000" />
+      <workItem from="1600948499103" duration="532000" />
+    </task>
+    <task id="LOCAL-00001" summary="task1_1_3">
+      <created>1600609829407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600609829407</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task1_1_3">
+      <created>1600611046282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600611046282</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task1_1_3">
+      <created>1600686746084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600686746085</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task1_1_3">
+      <created>1600783139877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600783139877</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task1_3">
+      <created>1600865185691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600865185691</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task1_3">
+      <created>1600870031095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600870031095</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../Preproject13" />
+      <path value="$PROJECT_DIR$/src" />
+      <path value="$PROJECT_DIR$/gitRep" />
+    </ignored-roots>
+    <MESSAGE value="task1_1_3" />
+    <MESSAGE value="task1_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task1_3" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="114" y="0" key="#Deployment" timestamp="1600783134076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="114" y="0" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1600783134076" />
+    <state x="410" y="149" key="#Notifications" timestamp="1600948508201">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="149" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1600948508201" />
+    <state x="295" y="0" key="#Options" timestamp="1598616447798">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="295" y="0" key="#Options/0.0.1536.824@0.0.1536.824" timestamp="1598616447798" />
+    <state x="161" y="0" key="#Plugins" timestamp="1598275861646">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="161" y="0" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1598275861646" />
+    <state x="0" y="0" key="#Project_Structure" timestamp="1598976971012">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1598976971012" />
+    <state x="0" y="178" key="#SQL_Dialects" timestamp="1599646149649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="178" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1599646149649" />
+    <state x="455" y="113" key="#Servers" timestamp="1600695171694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="455" y="113" key="#Servers/0.0.1536.824@0.0.1536.824" timestamp="1600695171694" />
+    <state x="246" y="234" key="#com.intellij.debugger.ui.breakpoints.EditClassFiltersDialog" timestamp="1600249898753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="246" y="234" key="#com.intellij.debugger.ui.breakpoints.EditClassFiltersDialog/0.0.1536.824@0.0.1536.824" timestamp="1600249898753" />
+    <state x="348" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598618071070">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="466" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598188495461" />
+    <state x="348" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598618071070" />
+    <state x="527" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1600685642539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600685642539" />
+    <state x="128" y="0" key="CommitChangelistDialog2" timestamp="1600865184307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="128" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600865184307" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1600947524276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1600947524276" />
+    <state x="340" y="26" key="FileChooserDialogImpl" timestamp="1600948863688">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="26" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600948863688" />
+    <state x="536" y="290" key="Github.CreateGistDialog" timestamp="1600778561687">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="536" y="290" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1600778561687" />
+    <state x="489" y="257" key="Github.CreatePullRequestDialog" timestamp="1600783070754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="489" y="257" key="Github.CreatePullRequestDialog/0.0.1536.824@0.0.1536.824" timestamp="1600783070754" />
+    <state x="607" y="285" key="Github.ShareDialog" timestamp="1600947894932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="607" y="285" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1600947894932" />
+    <state x="328" y="36" key="Github.UntrackedFilesDialog" timestamp="1600946568900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="328" y="36" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600946568900" />
+    <state width="587" height="69" key="GridCell.Tab.0.bottom" timestamp="1600948868249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="587" height="69" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600948868249" />
+    <state width="587" height="69" key="GridCell.Tab.0.center" timestamp="1600948868249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="587" height="69" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600948868249" />
+    <state width="587" height="69" key="GridCell.Tab.0.left" timestamp="1600948868249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="587" height="69" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600948868249" />
+    <state width="587" height="69" key="GridCell.Tab.0.right" timestamp="1600948868249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="587" height="69" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600948868249" />
+    <state width="1485" height="3" key="GridCell.Tab.1.bottom" timestamp="1600785169092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="3" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600785169092" />
+    <state width="1485" height="3" key="GridCell.Tab.1.center" timestamp="1600785169092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="3" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600785169092" />
+    <state width="1485" height="3" key="GridCell.Tab.1.left" timestamp="1600785169092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="3" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600785169092" />
+    <state width="1485" height="3" key="GridCell.Tab.1.right" timestamp="1600785169092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1485" height="3" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600785169092" />
+    <state width="314" height="749" key="HiddenNamespacesPopup" timestamp="1598527823882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="314" height="749" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1598527823882" />
+    <state x="289" y="0" key="RollbackChangesDialog" timestamp="1600947570430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="289" y="0" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600947570430" />
+    <state x="0" y="0" width="1502" height="824" key="SettingsEditor" timestamp="1600949031893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1462.864@0.0.1462.864" timestamp="1600868335748" />
+    <state x="0" y="0" width="1502" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600949031893" />
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1600948930618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600948930618" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1600178593389">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1600178593389" />
+    <state x="190" y="64" key="com.intellij.ide.util.TipDialog" timestamp="1598273520079">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="190" y="64" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1598273520079" />
+    <state x="535" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600947427456">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600947427456" />
+    <state x="107" y="0" width="1322" height="824" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600342574894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="107" y="0" width="1322" height="824" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1600342574894" />
+    <state x="496" y="171" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1600694740806">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="171" key="git4idea.history.wholeTree.VcsStructureChooser/0.0.1536.824@0.0.1536.824" timestamp="1600694740806" />
+    <state x="474" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600948694963">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="474" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600948694963" />
+    <state x="555" y="285" key="git4idea.ui.GitResetDialog" timestamp="1600866671496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="285" key="git4idea.ui.GitResetDialog/0.0.1536.824@0.0.1536.824" timestamp="1600866671496" />
+    <state x="555" y="223" key="git4idea.ui.GitTagDialog" timestamp="1600947637969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="223" key="git4idea.ui.GitTagDialog/0.0.1536.824@0.0.1536.824" timestamp="1600947637969" />
+    <state x="503" y="156" key="git4idea.ui.GitUnstashDialog" timestamp="1600867092947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="503" y="156" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1600867092947" />
+    <state x="257" y="178" width="840" height="1034" key="run.anything.popup" timestamp="1600776447610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="257" y="178" width="840" height="1034" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600776447610" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1600685940673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600685940673" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <dependency id="0" />
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" log-message="true" log-stack="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="47" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.sql.SQLNonTransientConnectionException" package="java.sql" />
+          <option name="timeStamp" value="57" />
+        </breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java</url>
+          <line>11</line>
+          <properties class="jm.task.core.jdbc.service.UserServiceImpl" method="createUsersTable">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint log-message="true" log-stack="true" type="java-exception">
+          <dependency master-id="0" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="jm.task.core.jdbc.dao.UserDaoJDBCImpl" memberName="sqlCreateTable" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="resultSet.getMetaData().getTableName(1)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TaskJDBC$UserServiceTest_saveUser.ic" NAME="UserServiceTest.saveUser Coverage Results" MODIFIED="1600181039987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TaskJDBC$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1599734483014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
