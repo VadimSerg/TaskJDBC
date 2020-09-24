@@ -24,7 +24,7 @@ public class UserDaoJDBCImpl implements UserDao {
                     "(Id BIGINT PRIMARY KEY AUTO_INCREMENT,  FirstName TINYTEXT , " +
                     "LastName TINYTEXT ,  Age TINYINT)");
 
-            System.out.println("Table was created successfully");
+            System.out.println("Table has been created successfully");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
@@ -34,7 +34,7 @@ public class UserDaoJDBCImpl implements UserDao {
     public void dropUsersTable() {
         try (Statement st = connection.createStatement()) {
             st.executeUpdate("DROP TABLE IF EXISTS Users ");
-            System.out.println("Table was removed successfully");
+            System.out.println("Table has been removed successfully");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
@@ -51,8 +51,8 @@ public class UserDaoJDBCImpl implements UserDao {
             preparedStatement.setLong(3, user.getAge());
             preparedStatement.executeUpdate();
 
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException throwable) {
+            throwable.printStackTrace();
         }
 
     }
@@ -62,8 +62,9 @@ public class UserDaoJDBCImpl implements UserDao {
                      connection.prepareStatement("DELETE FROM Users  WHERE Id=?")) {
             preparedStatement.setLong(1, id);
             preparedStatement.executeUpdate();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+            System.out.println("User has been removed successfully");
+        } catch (SQLException throwable) {
+            throwable.printStackTrace();
         }
 
     }
@@ -77,8 +78,8 @@ public class UserDaoJDBCImpl implements UserDao {
                         resultSet.getString("LastName"),
                         resultSet.getByte("Age")));
             }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException throwable) {
+            throwable.printStackTrace();
         }
         return list;
     }
@@ -86,9 +87,9 @@ public class UserDaoJDBCImpl implements UserDao {
     public void cleanUsersTable() {
         try (Statement st = connection.createStatement()) {
             st.executeUpdate("DELETE FROM Users");
-            System.out.println("The table was cleaned");
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+            System.out.println("The table has been cleaned");
+        } catch (SQLException throwable) {
+            throwable.printStackTrace();
         }
 
 
