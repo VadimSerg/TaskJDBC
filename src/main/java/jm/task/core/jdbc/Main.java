@@ -38,7 +38,7 @@ public class Main {
         userDaoHibernate.saveUser("Konstantin", "Habensky", (byte) 34);
         userDaoHibernate.saveUser("Vasiliy", "Pupkin", (byte) 57);
         userDaoHibernate.saveUser("James", "Gossling", (byte) 78);
-        //userDaoHibernate.dropUsersTable();
+        userDaoHibernate.dropUsersTable();
         userDaoHibernate.removeUserById(1);
 //        userDaoHibernate.removeUserById(3);
         System.out.println(userDaoHibernate.getAllUsers());
